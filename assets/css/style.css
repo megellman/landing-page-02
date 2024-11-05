@@ -96,7 +96,17 @@ main{
 select{
     color: var(--gray);
 }
-img{
+header img{
     width: 20px;
     margin-right: 8px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+footer img{
+    width: 50px;
+    border-radius: 25px;
+    margin: 10px 15px;
 }
